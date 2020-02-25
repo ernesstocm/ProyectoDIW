@@ -40,7 +40,7 @@
     }
   }
 
-  @media (max-width:400px){
+  @media (max-width:450px){
     .img-home{
       width: 250px;
       height: 166px;
