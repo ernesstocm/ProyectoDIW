@@ -1,0 +1,41 @@
+  .header{
+      padding: 0 !important;
+  }
+  
+  
+  @media (max-width:992px){
+    .description{
+        height: 270px !important;
+
+        text-overflow: ellipsis !important;
+        
+        overflow: hidden !important;
+        
+        min-width: 270px !important;
+        max-height: 270px !important;
+    }
+  }
+
+  @media (max-width:767px){
+    p.titulo_home{
+        text-align: center;
+    }
+    .product{
+        margin-bottom: 15px !important;
+    }
+    label {
+      display: none;
+    }
+    a.nav-link {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width:1070px){
+    input{
+        width: 0 auto !important;
+    }
+    nav li{
+        width: auto !important;
+    }
+  }
