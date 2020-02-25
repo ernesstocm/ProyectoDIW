@@ -39,3 +39,12 @@
         width: auto !important;
     }
   }
+
+  @media (max-width:400px){
+    .img-home{
+      width: 250px;
+      height: 166px;
+    }
+
+  }
+
